@@ -1,0 +1,48 @@
+Model's parameters: {'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'max_length': 1014, 'feature': 'large', 'optimizer': 'sgd', 'batch_size': 128, 'num_epochs': 20, 'lr': 0.01, 'dataset': 'amazon_polarity', 'es_min_delta': 0.0, 'es_patience': 3, 'input': 'input/amazon_review_polarity_csv', 'output': 'output/amazon_review_polarity_large', 'log_path': 'tensorboard/char-cnn'}Epoch: 1/20 
+Test loss: 0.19331373274326324 Test accuracy: 0.922735 
+Test confusion matrix: 
+[[179099  20901]
+ [ 10005 189995]]
+
+Epoch: 2/20 
+Test loss: 0.1715281754732132 Test accuracy: 0.9346625 
+Test confusion matrix: 
+[[189632  10368]
+ [ 15767 184233]]
+
+Epoch: 3/20 
+Test loss: 0.168227419257164 Test accuracy: 0.9385 
+Test confusion matrix: 
+[[189088  10912]
+ [ 13688 186312]]
+
+Epoch: 4/20 
+Test loss: 0.16258302330970764 Test accuracy: 0.93785 
+Test confusion matrix: 
+[[190361   9639]
+ [ 15221 184779]]
+
+Epoch: 5/20 
+Test loss: 0.16782024502754211 Test accuracy: 0.9364325 
+Test confusion matrix: 
+[[188833  11167]
+ [ 14260 185740]]
+
+Epoch: 6/20 
+Test loss: 0.19798192381858826 Test accuracy: 0.9285925 
+Test confusion matrix: 
+[[180241  19759]
+ [  8804 191196]]
+
+Epoch: 7/20 
+Test loss: 0.22339433431625366 Test accuracy: 0.93177 
+Test confusion matrix: 
+[[182866  17134]
+ [ 10158 189842]]
+
+Epoch: 8/20 
+Test loss: 0.31044143438339233 Test accuracy: 0.929525 
+Test confusion matrix: 
+[[185698  14302]
+ [ 13888 186112]]
+

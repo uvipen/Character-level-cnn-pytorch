@@ -1,0 +1,48 @@
+Model's parameters: {'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'max_length': 1014, 'feature': 'large', 'optimizer': 'adam', 'batch_size': 128, 'num_epochs': 20, 'lr': 0.001, 'dataset': 'yelp_review_polarity', 'es_min_delta': 0.0, 'es_patience': 3, 'input': 'input/yelp_review_polarity_csv', 'output': 'output/yelp_review_polarity_large', 'log_path': 'tensorboard/char-cnn'}Epoch: 1/20 
+Test loss: 0.17624683678150177 Test accuracy: 0.9307105263157894 
+Test confusion matrix: 
+[[18037   963]
+ [ 1670 17330]]
+
+Epoch: 2/20 
+Test loss: 0.18296527862548828 Test accuracy: 0.932 
+Test confusion matrix: 
+[[17057  1943]
+ [  641 18359]]
+
+Epoch: 3/20 
+Test loss: 0.16431966423988342 Test accuracy: 0.9373684210526316 
+Test confusion matrix: 
+[[17943  1057]
+ [ 1323 17677]]
+
+Epoch: 4/20 
+Test loss: 0.15943120419979095 Test accuracy: 0.9404473684210526 
+Test confusion matrix: 
+[[18018   982]
+ [ 1281 17719]]
+
+Epoch: 5/20 
+Test loss: 0.24516063928604126 Test accuracy: 0.923921052631579 
+Test confusion matrix: 
+[[18551   449]
+ [ 2442 16558]]
+
+Epoch: 6/20 
+Test loss: 0.18498842418193817 Test accuracy: 0.9349736842105263 
+Test confusion matrix: 
+[[17294  1706]
+ [  765 18235]]
+
+Epoch: 7/20 
+Test loss: 0.1885484755039215 Test accuracy: 0.9399473684210526 
+Test confusion matrix: 
+[[18111   889]
+ [ 1393 17607]]
+
+Epoch: 8/20 
+Test loss: 0.21695831418037415 Test accuracy: 0.9388947368421052 
+Test confusion matrix: 
+[[17915  1085]
+ [ 1237 17763]]
+
