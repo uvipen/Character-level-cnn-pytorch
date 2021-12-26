@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: Viet Nguyen <nhviet1009@gmail.com>
+@author: Thang Nguyen <nhthang1009@gmail.com>
 """
 import numpy as np
 from sklearn import metrics
