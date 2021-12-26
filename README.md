@@ -98,3 +98,4 @@ The training/test loss/accuracy curves for each dataset's experiments (figures f
 <img src="visualization/char-cnn_small_amazon_polarity.png" width="420"> <img src="visualization/char-cnn_large_amazon_polarity.png" width="420">
 
 You could find detail log of each experiment containing loss, accuracy and confusion matrix at the end of each epoch in **output/datasetname_scale/logs.txt**, for example output/ag_news_small/logs.txt
+
